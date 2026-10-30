@@ -3,12 +3,12 @@ First release of Stremio for Android Automotive OS (AAOS), adapted from official
 Designed and tested on the 15.4" Polestar 4 display (1920x1200), but may work on other vehicles running AAOS.
 
 ### Key changes
-- Sidebar, posters, text, and settings scaled up to be easy to read and tap from the seat
-- Top filter chips moved down so the vehicle status bar doesn't cut them off
-- Catalog rows fit 6 full posters across the screen cleanly
-- Player HUD opens on first tap, with +/-10s skip buttons added
-- Phone screen rotation removed; video scaling button cycles Fit, Crop, Stretch, and Original
-- Settings and addon pages expanded to full screen width
+- Clean 6-poster shelves across Home, Discover, and Search with readable ratings and no cut-off edges
+- Wider 140dp sidebar with bigger icons and text you can tap from the seat
+- Video player controls stay on screen while parked, with dedicated +/-10s skip buttons and large action buttons
+- Settings and addon pages stretch across the full width with big touch targets
+- Top filter chips moved down so the car status bar does not clip them
+- Removed mobile screen rotation; fixed video scaling toggle (Fit, Crop, Stretch, Original)
 
 ### Asset
 - `com.stremio.one-2.5.0.1-AAOS.apk` (ARM64 vehicle build)  
