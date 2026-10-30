@@ -1,5 +1,9 @@
 # Stremio for Android Automotive OS (AAOS)
 
+![Stremio on car display - Discover catalog](screenshots/dashboard-discover.png)
+
+![Stremio on car display - Video playback](screenshots/video-player.png)
+
 This is a modified build of Stremio adjusted for Android Automotive OS (AAOS) landscape screens. It was designed and tested on the 15.4-inch display of the Polestar 4 (1920x1200), but may work on other vehicles running AAOS.
 
 The base version used for this mod is official Stremio for mobile v2.5.0 (`com.stremio.one`). The `.1` in `2.5.0.1-AAOS` marks the first revision adapting the mobile touch interface for wide horizontal car displays.
