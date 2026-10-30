@@ -1,8 +1,8 @@
-# Stremio for Android Automotive OS (Polestar 4)
+# Stremio for Android Automotive OS (AAOS)
 
-This is a modified build of Stremio adjusted for Android Automotive OS (AAOS) landscape screens, tested on the 15.4-inch center screen of the Polestar 4 (1920x1200).
+This is a modified build of Stremio adjusted for Android Automotive OS (AAOS) landscape screens. It was designed and tested on the 15.4-inch display of the Polestar 4 (1920x1200), but may work on other vehicles running AAOS.
 
-This repository does not contain Stremio source code or proprietary assets. Ready-to-install signed APKs are published directly on the [Releases](https://github.com/ai-obsessed/stremio-aaos-polestar4/releases) page.
+This repository does not contain Stremio source code or proprietary assets. Ready-to-install signed APKs are published directly on the [Releases](https://github.com/ai-obsessed/stremio-aaos/releases) page.
 
 ## What changed
 
@@ -18,25 +18,16 @@ Stock mobile and TV builds of Stremio do not fit wide automotive screens cleanly
 
 ## Downloads
 
-Signed APKs are available under [Releases](https://github.com/ai-obsessed/stremio-aaos-polestar4/releases):
+Signed APKs are available under [Releases](https://github.com/ai-obsessed/stremio-aaos/releases):
 
-- `com.stremio.one-2.5.0.1-AAOS-Polestar4.apk`: ARM64 build for the vehicle.
-- `com.stremio.one-2.5.0.1-AAOS-Polestar4-x86_64-emulator.apk`: x86_64 test build for PC Android Automotive emulators.
+- `com.stremio.one-2.5.0.1-AAOS.apk`: ARM64 build for vehicles.
+- `com.stremio.one-2.5.0.1-AAOS-x86_64-emulator.apk`: x86_64 test build for PC Android Automotive emulators.
 
 ## Installation
 
-Installing third-party apps on AAOS requires ADB over Wi-Fi or USB.
-
-1. Turn on Developer Options on your car screen (Settings > System > About > tap Build Number 7 times).
-2. Enable Wireless Debugging or USB Debugging.
-3. Connect your laptop to the car Wi-Fi and connect via ADB:
-   ```cmd
-   adb connect <car-ip-address>:5555
-   ```
-4. Install the car APK:
-   ```cmd
-   adb install -r com.stremio.one-2.5.0.1-AAOS-Polestar4.apk
-   ```
+1. Download `com.stremio.one-2.5.0.1-AAOS.apk` directly on the car display using the vehicle's built-in browser (or transfer the file using a USB drive or phone).
+2. Open the downloaded APK file.
+3. Allow installation from unknown sources if prompted by the system.
 
 ## Safety notice
 
