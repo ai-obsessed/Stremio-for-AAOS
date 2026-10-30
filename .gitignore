@@ -1,0 +1,13 @@
+# Binaries live in GitHub Releases, not the git tree
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# System and logs
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+build/
+dist/
