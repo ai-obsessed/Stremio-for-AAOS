@@ -22,7 +22,7 @@ This build patches the layout so it actually fits the screen.
 - Removed mobile screen rotation; fixed video scaling toggle (Fit, Crop, Stretch, Original)
 
 ### Install
-Download `com.stremio.one-2.5.0.1-AAOS.apk` from [Releases](https://github.com/ai-obsessed/stremio-aaos/releases).
+Download `com.stremio.one-2.5.0.1-AAOS.apk` from [Releases](https://github.com/ai-obsessed/Stremio-for-AAOS/releases).
 
 1. Open the car browser (Vivaldi), download the APK, and tap install.
 2. Allow installation from unknown sources if prompted. You can also install it via USB drive.
