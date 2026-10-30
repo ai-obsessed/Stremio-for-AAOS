@@ -2,6 +2,8 @@
 
 This is a modified build of Stremio adjusted for Android Automotive OS (AAOS) landscape screens. It was designed and tested on the 15.4-inch display of the Polestar 4 (1920x1200), but may work on other vehicles running AAOS.
 
+The base version used for this mod is official Stremio for mobile v2.5.0 (`com.stremio.one`). The `.1` in `2.5.0.1-AAOS` marks the first revision adapting the mobile touch interface for wide horizontal car displays.
+
 This repository does not contain Stremio source code or proprietary assets. Ready-to-install signed APKs are published directly on the [Releases](https://github.com/ai-obsessed/stremio-aaos/releases) page.
 
 ## What changed

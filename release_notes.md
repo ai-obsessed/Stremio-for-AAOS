@@ -1,4 +1,6 @@
-First release of Stremio modified for Android Automotive OS (AAOS). Designed and tested on the 15.4-inch display of the Polestar 4 (1920x1200), but may work on other vehicles running AAOS.
+First release of Stremio modified for Android Automotive OS (AAOS). 
+
+The base version used for this mod is official Stremio for mobile v2.5.0 (`com.stremio.one`). The `.1` suffix denotes the first revision adapting the mobile touch UI for wide automotive screens. Designed and tested on the 15.4-inch display of the Polestar 4 (1920x1200), but may work on other vehicles running AAOS.
 
 ### Changes in this build
 - Navigation sidebar: Widened sidebar navigation with enlarged touch targets for car displays.
